@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSP: </title>
+    <link rel="stylesheet" href="../../../src/css/slideshow.css">
+    <script src="../../../src/js/slideshow.js"></script>
+</head>
+
+<body>
+    <!-- https://github.com/kjs941008/jsp_project -->
+    <div class="slideshow-container">
+        <div class="mySlides fade" style="display: block;">
+            <div class="text">1 / 3</div>
+            <img src="../../../src/res/kb/p03/src00.PNG" style="width:100%">
+        </div>
+
+        <div class="mySlides fade" style="display: none;">
+            <div class="text">2 / 3</div>
+            <img src="../../../src/res/kb/p03/src01.PNG" style="width:100%">
+        </div>
+
+        <div class="mySlides fade" style="display: none;">
+            <div class="text">3 / 3</div>
+            <img src="../../../src/res/kb/p03/src02.PNG" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <!-- <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div> -->
+
+    <div id="project_info_container">
+        <div>
+            <h2>프로젝트 정보</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>구분</th>
+                        <th>내용</th>
+                        <th>비고</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>언어</th>
+                        <td>JSP</td>
+                    </tr>
+                    <tr>
+                        <th>툴</th>
+                        <td>Eclipse</td>
+                    </tr>
+                    <tr>
+                        <th>프로그램 목적</th>
+                        <td>전기차 커뮤니티</td>
+                    </tr>
+                    <tr>
+                        <th>기능</th>
+                        <td>1.</td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>2.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <!-- TODO: 리스트로 접/펴기 구현 -->
+            <h3>전체 소스코드 중 일부</h3>
+            <caption>DBConnManager.java</caption>
+            <div id="srcCode_dbConn">
+            </div>
+
+            <caption>DML.java</caption>
+            <div id="srcCode_dml">
+            </div>
+
+            <caption>Helper.java</caption>
+            <div id="srcCode_helper">
+            </div>
+        </div>
+</body>
+
+</html>
