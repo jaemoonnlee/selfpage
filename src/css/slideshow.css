@@ -4,6 +4,7 @@
 
 /* Slideshow container */
 .slideshow-container {
+    min-width: 400px;
     max-width: fit-content;
     position: relative;
     margin: auto;
