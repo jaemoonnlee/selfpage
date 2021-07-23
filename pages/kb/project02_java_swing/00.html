@@ -9,7 +9,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="../../../src/css/slideshow.css">
     <script src="../../../src/js/slideshow.js"></script>
-    <script src="../../../src/js/kb_p00.js"></script>
+    <link rel="stylesheet" href="../../../src/css/collapsible.css">
+    <script src="../../../src/js/collapsible.js"></script>
+    <script src="../../../src/js/kb_p02.js"></script>
 </head>
 
 <body>
@@ -63,19 +65,16 @@
         <div>
             <!-- TODO: 리스트로 접/펴기 구현 -->
             <h3>전체 소스코드 중 일부</h3>
-            <caption>DBConnManager.java</caption>
-            <div id="srcCode_dbConn">
-
+            <button class="collapsible">DBConnManager.java</button>
+            <div id="srcCode_dbConn" class="content">
             </div>
 
-            <caption>DML.java</caption>
-            <div id="srcCode_dml">
-
+            <button class="collapsible">DML.java</button>
+            <div id="srcCode_dml" class="content">
             </div>
 
-            <caption>Helper.java</caption>
-            <div id="srcCode_helper">
-
+            <button class="collapsible">Helper.java</button>
+            <div id="srcCode_helper" class="content">
             </div>
         </div>
 </body>

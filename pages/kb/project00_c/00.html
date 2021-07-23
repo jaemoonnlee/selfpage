@@ -9,6 +9,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="../../../src/css/slideshow.css">
     <script src="../../../src/js/slideshow.js"></script>
+    <link rel="stylesheet" href="../../../src/css/collapsible.css">
+    <script src="../../../src/js/collapsible.js"></script>
     <script src="../../../src/js/kb_p00.js"></script>
 </head>
 
@@ -36,12 +38,6 @@
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
     <br>
-    <!-- The dots/circles -->
-    <!-- <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div> -->
 
     <div id="project_info_container">
         <div>
@@ -79,9 +75,8 @@
             </table>
         </div>
         <div>
-            <caption>소스코드</caption>
-            <div id="srcCode">
-
+            <button class="collapsible">전체 소스코드</button>
+            <div id="srcCode" class="content">
             </div>
         </div>
     </div>
