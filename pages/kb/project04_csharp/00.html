@@ -15,10 +15,97 @@
 
 <body>
     <!-- https://github.com/JM-94/C-project -->
+    <div class="slideshow-container">
+        <div class="mySlides fade" style="display: block;">
+            <div class="text">1 / 7</div>
+            <img src="../../../src/res/kb/p04/ui00.PNG" style="width:100%">
+        </div>
+        <div class="mySlides fade" style="display: none;">
+            <div class="text">2 / 7</div>
+            <img src="../../../src/res/kb/p04/ui01.PNG" style="width:100%">
+        </div>
+        <div class="mySlides fade" style="display: none;">
+            <div class="text">3 / 7</div>
+            <img src="../../../src/res/kb/p04/ui02.PNG" style="width:100%">
+        </div>
+        <div class="mySlides fade" style="display: none;">
+            <div class="text">4 / 7</div>
+            <img src="../../../src/res/kb/p04/ui03.PNG" style="width:100%">
+        </div>
+        <div class="mySlides fade" style="display: none;">
+            <div class="text">5 / 7</div>
+            <img src="../../../src/res/kb/p04/ui04.PNG" style="width:100%">
+        </div>
+        <div class="mySlides fade" style="display: none;">
+            <div class="text">6 / 7</div>
+            <img src="../../../src/res/kb/p04/ui05.PNG" style="width:100%">
+        </div>
+        <div class="mySlides fade" style="display: none;">
+            <div class="text">7 / 7</div>
+            <img src="../../../src/res/kb/p04/ui06.PNG" style="width:100%">
+        </div>
 
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+    </div>
 
+    <div id="project_info_container">
+        <div>
+            <h2>프로젝트 정보</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>구분</th>
+                        <th>내용</th>
+                        <th>비고</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>언어</th>
+                        <td>C#</td>
+                    </tr>
+                    <tr>
+                        <th>툴</th>
+                        <td>Visual Studio 2019</td>
+                    </tr>
+                    <tr>
+                        <th>프로그램 목적</th>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th>기능</th>
+                        <td>1.</td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>2.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h3>전체 소스코드 중 일부</h3>
+            <button class="collapsible">Helper.cs</button>
+            <div id="srcCode00" class="content">
+            </div>
 
-    
+            <button class="collapsible">Form1.cs</button>
+            <div id="srcCode01" class="content">
+            </div>
+            </div>
+        </div>
+    </div>
     <script src="../../../src/js/collapsible.js"></script>
 </body>
 
