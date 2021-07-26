@@ -4,8 +4,9 @@
 
 /* Slideshow container */
 .slideshow-container {
-    min-width: 200px;
-    max-width: 400px;
+    min-width: 360px;
+    max-width: 540px;
+    /* max-height: 200px; */
     position: relative;
     margin: auto;
 }
@@ -13,6 +14,15 @@
 /* Hide the images by default */
 .mySlides {
     display: none;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff
 }
 
 /* Next & previous buttons */
@@ -30,6 +40,8 @@
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    background-color: #d3d3d3;
+    opacity: 0.4;
 }
 
 /* Position the "next button" to the right */
@@ -82,7 +94,7 @@
 }
 
 /* Fading animation */
-.fade {
+.myFade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;

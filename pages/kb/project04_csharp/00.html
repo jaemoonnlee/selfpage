@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>C#: 주택청약</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../../../src/css/slideshow.css">
     <script src="../../../src/js/slideshow.js"></script>
     <link rel="stylesheet" href="../../../src/css/collapsible.css">
@@ -16,31 +18,31 @@
 <body>
     <!-- https://github.com/JM-94/C-project -->
     <div class="slideshow-container">
-        <div class="mySlides fade" style="display: block;">
+        <div class="mySlides myFade" style="display: block;">
             <div class="text">1 / 7</div>
             <img src="../../../src/res/kb/p04/ui00.PNG" style="width:100%">
         </div>
-        <div class="mySlides fade" style="display: none;">
+        <div class="mySlides myFade" style="display: none;">
             <div class="text">2 / 7</div>
             <img src="../../../src/res/kb/p04/ui01.PNG" style="width:100%">
         </div>
-        <div class="mySlides fade" style="display: none;">
+        <div class="mySlides myFade" style="display: none;">
             <div class="text">3 / 7</div>
             <img src="../../../src/res/kb/p04/ui02.PNG" style="width:100%">
         </div>
-        <div class="mySlides fade" style="display: none;">
+        <div class="mySlides myFade" style="display: none;">
             <div class="text">4 / 7</div>
             <img src="../../../src/res/kb/p04/ui03.PNG" style="width:100%">
         </div>
-        <div class="mySlides fade" style="display: none;">
+        <div class="mySlides myFade" style="display: none;">
             <div class="text">5 / 7</div>
             <img src="../../../src/res/kb/p04/ui04.PNG" style="width:100%">
         </div>
-        <div class="mySlides fade" style="display: none;">
+        <div class="mySlides myFade" style="display: none;">
             <div class="text">6 / 7</div>
             <img src="../../../src/res/kb/p04/ui05.PNG" style="width:100%">
         </div>
-        <div class="mySlides fade" style="display: none;">
+        <div class="mySlides myFade" style="display: none;">
             <div class="text">7 / 7</div>
             <img src="../../../src/res/kb/p04/ui06.PNG" style="width:100%">
         </div>
@@ -59,15 +61,14 @@
         <span class="dot" onclick="currentSlide(7)"></span>
     </div>
 
-    <div id="project_info_container">
+    <div id="project_info_container" class="container" style="width:700px;">
         <div>
             <h2>프로젝트 정보</h2>
-            <table class="table">
+            <table class="table table-striped">
                 <thead>
                     <tr>
                         <th>구분</th>
                         <th>내용</th>
-                        <th>비고</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -81,15 +82,23 @@
                     </tr>
                     <tr>
                         <th>프로그램 목적</th>
-                        <td>-</td>
+                        <td>주택 청약&분양 정보 조회</td>
                     </tr>
                     <tr>
                         <th>기능</th>
-                        <td>1.</td>
+                        <td>1. 회원관리</td>
                     </tr>
                     <tr>
                         <th></th>
-                        <td>2.</td>
+                        <td>2. 청약&분양</td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>공공데이터 정보 조회</td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>위치 표시 및 면적 당 분양가 조회</td>
                     </tr>
                 </tbody>
             </table>
@@ -103,8 +112,8 @@
             <button class="collapsible">Form1.cs</button>
             <div id="srcCode01" class="content">
             </div>
-            </div>
         </div>
+    </div>
     </div>
     <script src="../../../src/js/collapsible.js"></script>
 </body>

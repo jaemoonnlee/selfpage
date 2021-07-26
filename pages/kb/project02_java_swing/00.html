@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Java Swing: </title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../../../src/css/slideshow.css">
     <script src="../../../src/js/slideshow.js"></script>
     <link rel="stylesheet" href="../../../src/css/collapsible.css">
@@ -16,27 +18,27 @@
 <body>
     <!-- https://github.com/qkr03210/TeamProject -->
     <div class="slideshow-container">
-        <div class="mySlides fade" style="display: block;">
+        <div class="mySlides myFade" style="display: block;">
             <div class="text">1 / 6</div>
             <img src="../../../src/res/kb/p02/src00.PNG" style="width:100%">
         </div>
-        <div class="mySlides fade" style="display: none;">
+        <div class="mySlides myFade" style="display: none;">
             <div class="text">2 / 6</div>
             <img src="../../../src/res/kb/p02/ui00.PNG" style="width:100%">
         </div>
-        <div class="mySlides fade" style="display: none;">
+        <div class="mySlides myFade" style="display: none;">
             <div class="text">3 / 6</div>
             <img src="../../../src/res/kb/p02/ui01.PNG" style="width:100%">
         </div>
-        <div class="mySlides fade" style="display: none;">
+        <div class="mySlides myFade" style="display: none;">
             <div class="text">4 / 6</div>
             <img src="../../../src/res/kb/p02/ui02.PNG" style="width:100%">
         </div>
-        <div class="mySlides fade" style="display: none;">
+        <div class="mySlides myFade" style="display: none;">
             <div class="text">5 / 6</div>
             <img src="../../../src/res/kb/p02/ui03.PNG" style="width:100%">
         </div>
-        <div class="mySlides fade" style="display: none;">
+        <div class="mySlides myFade" style="display: none;">
             <div class="text">6 / 6</div>
             <img src="../../../src/res/kb/p02/ui04.PNG" style="width:100%">
         </div>
@@ -54,15 +56,14 @@
         <span class="dot" onclick="currentSlide(6)"></span>
     </div>
 
-    <div id="project_info_container">
+    <div id="project_info_container" class="container" style="width:700px;">
         <div>
             <h2>프로젝트 정보</h2>
-            <table class="table">
+            <table class="table table-striped">
                 <thead>
                     <tr>
                         <th>구분</th>
                         <th>내용</th>
-                        <th>비고</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -76,15 +77,15 @@
                     </tr>
                     <tr>
                         <th>프로그램 목적</th>
-                        <td>-</td>
+                        <td>도서 관리 프로그램</td>
                     </tr>
                     <tr>
                         <th>기능</th>
-                        <td>1.</td>
+                        <td>1. 회원관리</td>
                     </tr>
                     <tr>
                         <th></th>
-                        <td>2.</td>
+                        <td>2. 도서관리</td>
                     </tr>
                 </tbody>
             </table>
