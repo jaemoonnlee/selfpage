@@ -11,7 +11,7 @@
 |||파일 데이터 관리(*.XML, *.JSON)|-
 |||MSSQL 연결 및 프로시저 사용|-
 비전 시스템|C#|Windows Forms, MSSQL, Basler Camera(Pylon), MIL(Matrox Imaging Library), OpenCV|이미지 전처리 학습|-
-학습|C#|Console|알고리즘 공부(Programmer, LeetCode)|https://github.com/jaemoonnlee/repo_csharp/tree/main/Algorithm
+학습|C#|Console|알고리즘 공부(Programmer, LeetCode)|https://github.com/jaemoonnlee/code_algorithm
 학습|SQL|Oracle, MySQL, MariaDB, MSSQL|SQL 문법 학습|-
 웹 개발|Java|Spring Framework, HTML, CSS(Bootstrap), JavaScript, jQuery|Oracle, MySQL, MariaDB 연결(JDBC)|-
 |||패턴(MVC, Singleton) 사용|-
